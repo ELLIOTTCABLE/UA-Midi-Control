@@ -12,11 +12,13 @@ Currently only supports CC messages.
 
 ## Installation
 
-If you use the Homebrew package-manager for macOS, you can install UA Midi Control from the command-line with this command:
+If you use the [Homebrew][] package-manager for macOS, you can install UA Midi Control from the command-line with this command:
 
 ```console
 $ brew install ua-midi-control
 ```
+
+[Homebrew]: <https://brew.sh/> "The command-line installer and version-manager for macOS software"
 
 ### Manual download
 
