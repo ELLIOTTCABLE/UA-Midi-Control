@@ -1,13 +1,5 @@
 # Universal Audio (UA) Midi Control
 
-NEW APP DOWNLOAD LINK: https://fonoflow.com/products/ua-remote-control
-
-OLD APP DOWNLOAD LINK: https://github.com/vargaradu/UA-Midi-Control/raw/master/UA%20Midi%20Control.zip
-
-Similar App for Focusrite interfaces: https://github.com/vargaradu/Focusrite-Midi-Control
-
-On Chrome you might receive a "UA Midi Control.zip is not commonly downloaded and may be dangerous" warning, you have to click "Keep" to continue the donwload.
-
 ## What is it?
 
 It's an App that let's you Midi Map the volumes of your Universal Audio interface. You must have the UA Mixer Engine process running, which starts up along with the Console app. The Console app can be quit afterwards, the UA Mixer Engine will keep running in the background.
@@ -15,6 +7,27 @@ It's an App that let's you Midi Map the volumes of your Universal Audio interfac
 There is no special permissions required to connect this app to the UA Mixer Engine, it will just work if they are opened on the same machine.
 
 Currently only supports CC messages.
+
+## Installation
+
+If you use the Homebrew package-manager for macOS, you can install UA Midi Control from the command-line with this command:
+
+```console
+$ brew install ua-midi-control
+```
+
+### Manual download
+
+- Download link for the new app:\
+  https://fonoflow.com/products/ua-remote-control
+
+- Download link for the old app, compiled from the open source here on GitHUb:\
+  https://github.com/vargaradu/UA-Midi-Control/raw/master/UA%20Midi%20Control.zip
+
+- Similar App for Focusrite interfaces:\
+  https://github.com/vargaradu/Focusrite-Midi-Control
+
+Note: On Chrome you might receive a "UA Midi Control.zip is not commonly downloaded and may be dangerous" warning, you have to click "Keep" to continue the donwload.
 
 ## Why did you do it?
 
