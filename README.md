@@ -2,11 +2,13 @@
 
 ## What is it?
 
-It's an App that let's you Midi Map the volumes of your Universal Audio interface. You must have the UA Mixer Engine process running, which starts up along with the Console app. The Console app can be quit afterwards, the UA Mixer Engine will keep running in the background.
+It's an App that let's you Midi Map the controls of your [Universal Audio interfaces][UA]. You must have the `UA Mixer Engine` process running, which starts up along with the `UAD Console.app`. The UAD Console app can be quit afterwards, the UA Mixer Engine will keep running in the background.
 
 There is no special permissions required to connect this app to the UA Mixer Engine, it will just work if they are opened on the same machine.
 
 Currently only supports CC messages.
+
+[UA]: <https://www.uaudio.com/audio-interfaces.html> "Universal Audio audio-interface hardware"
 
 ## Installation
 
